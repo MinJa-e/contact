@@ -11,7 +11,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
 
     return MaterialApp(
-      home: Text('안녕'),
+      home: Scaffold(
+        appBar: AppBar(),
+        body: Container(),
+        bottomNavigationBar: BottomAppBar()
+      )
     );
   }
 }
